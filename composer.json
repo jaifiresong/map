@@ -1,14 +1,14 @@
 {
-    "name": "exp/map",
+    "name": "jaifire/map",
     "autoload": {
         "psr-4": {
-            "Exp\\Map\\": "src/"
+            "Jaifire\\Map\\": "src/"
         }
     },
     "authors": [
         {
             "name": "jaifiresong",
-            "email": "boydearea@163.com"
+            "email": "jaifiresong@gmail.com"
         }
     ],
     "require-dev": {
