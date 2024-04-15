@@ -10,6 +10,7 @@ use LiteView\Treasure\Log;
 
 class Location
 {
+    //高德地图,经纬度转地址
     public static function gaoDeL2Address($lat, $lng, $uid)
     {
         $ak = '';
@@ -18,8 +19,7 @@ class Location
         $rsp = Lite::request()->get($url);
     }
 
-    //天地图
-    //http://api.tianditu.gov.cn/geocoder?postStr={'lon':112.592568,'lat':35.059563,'ver':1}&type=geocode&tk=7bff41f2a83e549130c58d14cfb03637
+    //天地图,经纬度转地址
     public static function tainditu($lat, $lng, $uid)
     {
         $ak = '';
